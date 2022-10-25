@@ -17,6 +17,11 @@ h2{
     -o-animation: fadein 2s; /* Opera */
 }
 
+a{
+	font-size: 20px;
+}
+
+
 p{
 
 	display: inline-block;
