@@ -1,0 +1,45 @@
+/* @media screen and (orientation: landscape) {
+    html {
+      transform: rotate(90deg);
+    }
+  }
+  
+  @media screen and (orientation: portrait) {
+    html {
+      transform: rotate(0deg);
+    }
+  }
+   */
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+} */
+
+#game-container {
+  position: relative;
+  overflow: auto;
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  margin: 0;
+}
